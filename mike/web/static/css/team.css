@@ -1,0 +1,141 @@
+/* ----------------------TEAM.CSS ------------------------*/
+.team {
+    /*background-color: gray;*/
+    background-color: rgba(47,43,50,1);
+    -webkit-box-shadow:  0 0 50px  rgba(0,0,0,0.8);
+    box-shadow:  0 0 50px rgba(0,0,0,0.8);
+}
+
+.team .navbar-nav .navbar-header a:hover {
+    background: transparent;
+}
+
+.team .navbar-nav >li> a {
+    color: #bdbdbd;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    transition: 0.2s ease-out;
+}
+
+.team .navbar-nav a:hover {
+    background-color: rgba(47,43,50,1);
+    color: rgba(254,97,72,1);
+    text-decoration: none;
+}
+
+.navbar-header {
+    width: 45%;
+    height: 125px;
+}
+
+.team .navbar-nav {
+    margin-left: 350px;
+    margin-right: 321px;
+}
+
+
+
+.player {
+    min-height: 300px;
+    margin: 0 85px;
+    color: black;
+    position: relative;
+}
+
+.player_basic_info {
+    position: relative;
+}
+
+.player_basic_info h2 {
+    font-weight: 700;
+    font-size: 48px;
+    /*font-size: 3rem;*/
+    letter-spacing: .25em;
+    line-height: 1;
+    font-family: 'Lora' ,sans-serif;
+}
+
+.player_position {
+    display: block;
+    margin: 1.25em 0 0;
+    color: #c4af7a;
+    font-weight: 700;
+    font-size: 24px;
+    /*font-size: 1.5rem;*/
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: 'Lora' ,sans-serif;
+}
+
+.player_data {
+    margin: 1.75em -20px 1.75em 0;
+}
+
+.player_data > dt {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.player_data > dd {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.player_data .data_header {
+    margin: 0 -100% 0 0;
+    font-size: 14px;
+    /*font-size: .875rem;*/
+    text-transform: uppercase;
+    line-height: 1;
+    float: left;
+    min-width: 2.2em;
+    vertical-align: top;
+    color: black;
+    font-family: 'Lora' ,sans-serif;
+}
+
+.data_date {
+    display: block;
+    color: black;
+    font-weight: 400;
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    font-family: 'Lora' ,sans-serif;
+    line-height: 1;
+}
+
+.player_data .data_content {
+    margin: .5em 20px 0 0;
+    color: #c4af7a;
+    font-weight: 700;
+    font-size: 30px;
+    /*font-size: 1.875rem;*/
+    line-height: 1.6;
+    float: left;
+    min-width: 2.2em;
+    vertical-align: top;
+    font-family: 'Lora' ,sans-serif;
+}
+
+.player_image {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    max-width: 550px;
+    max-height: 715px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+
+/* ----------------------END TEAM.CSS ------------------------*/

@@ -1,0 +1,24 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="question">
+       <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/news" >Новости</a></li>
+                <li><a href="/competition" >Соревнования</a></li>
+                <li><div class="navbar-header">
+                    <a href="/"> <img src="{% static 'img/Imperia.png'  %}" height= "125px"></a>
+                    </div>
+                </li>
+                <li><a href="/team" >Команда</a></li>
+                <li><a href="/question" >Вопрос-ответ</a></li>
+            </ul>
+       </div>
+    </div>
+    <br><br>
+    <div class="text-center"><h1>На сайте ведуться технические работы. <br> Приносим свои извинения.(ВОПРОСЫ)</h1></div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+{% endblock %}

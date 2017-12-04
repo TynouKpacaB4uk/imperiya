@@ -1,0 +1,74 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Империя</title>
+
+     <!-- Custom style -->
+    <link rel="stylesheet" href={% static 'css/about.css' %}>
+    <link rel="stylesheet" href={% static 'css/base.css' %}>
+    <link rel="stylesheet" href={% static 'css/competition.css' %}>
+    <link rel="stylesheet" href={% static 'css/games.css' %}>
+    <link rel="stylesheet" href={% static 'css/main.css' %}>
+    <link rel="stylesheet" href={% static 'css/news.css' %}>
+    <link rel="stylesheet" href={% static 'css/partners.css' %}>
+    <link rel="stylesheet" href={% static 'css/photogallery.css' %}>
+    <link rel="stylesheet" href={% static 'css/question.css' %}>
+    <link rel="stylesheet" href={% static 'css/table.css' %}>
+    <link rel="stylesheet" href={% static 'css/team.css' %}>
+
+    <link rel="stylesheet" href={% static 'css/bootstrap.css' %}>
+    <link rel="stylesheet" href={% static 'css/font-awesome.min.css' %}>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,600i,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+</head>
+<body>
+
+
+    {% block content %} {% endblock %}
+
+
+    <nav class="siteMapHolder">
+        <div class="siteMap">
+            <ul class="column">
+                <li><a href="/about">О клубе</a></li>
+                <li><a href="/partners">Партнёры</a></li>
+            </ul>
+            <ul class="column">
+                <li><a href="/games">Матчи</a></li>
+                <li><a href="/table">Турнирная таблица</a></li>
+            </ul>
+            <ul class="column">
+               <li><a href="/photogallery">Фотогалерея</a></li>
+                <li><a href="/team">Команда</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <footer class="footer">
+{#        <div class="copyrights"><a href="/" class="logoLink">Регби клуб Империя</a></div>#}
+        <div class="container">
+            <div class="row centered">
+                <ul class="social">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/rugbyvpenze58/"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="https://vk.com/empirerugby"><i class="fa fa-vk"></i></a></li>
+                    <li><a href="https://twitter.com/empirerugby"><i class="fa fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+{#СКРОЛЛ ВВЕРХ#}
+{#    <a id="scrollUp" href="#top" title="" style="position: fixed; z-index: 2147483647; display: block;"></a>#}
+
+</body>
+</html>

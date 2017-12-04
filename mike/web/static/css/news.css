@@ -1,0 +1,203 @@
+/* ------------------------- NEWS.CSS -------------------------*/
+.news {
+    /*background-color: gray;*/
+    background-color: rgba(47,43,50,1);
+    -webkit-box-shadow:  0 0 50px  rgba(0,0,0,0.8);
+    box-shadow:  0 0 50px rgba(0,0,0,0.8);
+}
+
+.news .navbar-nav .navbar-header a:hover {
+    /*background: transparent;*/
+    background-color: rgba(47,43,50,1);
+}
+
+.news .navbar-nav >li> a {
+    background-color: rgba(47,43,50,1);
+    color: #bdbdbd;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    transition: 0.2s ease-out;
+}
+
+.news .navbar-nav a:hover {
+    /*background: rgba(4, 4, 4, 0.1);*/
+    /*background: #d5d5d5;*/
+    background-color: rgba(47,43,50,1);
+    /*color: #781014;*/
+    color: rgba(254,97,72,1);
+    text-decoration: none;
+}
+
+.navbar-header {
+    width: 45%;
+    height: 125px;
+}
+
+.news .navbar-nav {
+    margin-left: 350px;
+    margin-right: 321px;
+}
+
+
+
+
+
+.content {
+    position: relative;
+    width: 70em;
+    min-height: 100%;
+    margin: 0 auto 30px;
+}
+
+.news-is-fadein{
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    width: 70em;
+    margin: 0 auto;
+}
+
+.news-is-fadein a {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+
+/*.news-is-fadein a:hover {*/
+    /*top: 0;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*!*width: 100%;*!*/
+    /*background: rgb(121, 121, 121);*/
+    /*opacity: 0.5;*/
+    /*transition: 0.2s ease-out;*/
+    /*text-decoration: none;*/
+/*}*/
+
+
+
+/*реализация текста в картинке*/
+.example3 {
+    display:inline-block;
+    position:relative;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+
+.example_beauty:hover + .example_text {
+    visibility: visible;
+    /*background: no-repeat center top;*/
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color:#fff;
+    padding:10px;
+    background-color:rgba(0,0,0,.5);
+    /*transition: 0.2s ease-out;*/
+}
+.example_text {
+    visibility: inherit;
+}
+
+
+.example3 .example_beauty {
+    background-position: center center;
+    height: 280px;
+}
+
+.example3 .example_text {
+    /*background: transparent;*/
+    /*color: transparent;*/
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color: black;
+    padding:10px;
+    /*background-color:rgba(0,0,0,.3);*/
+    background-color: white;
+}
+
+.example3 .example_text:hover {
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    color:#fff;
+    padding:10px;
+    background-color:rgba(0,0,0,.5);
+    /*transition: 0.2s ease-out;*/
+}
+
+.example3 h6 {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:18px;
+}
+.example3 span {
+    font-size:12px;
+}
+/* конец реализации текста в картинке*/
+
+
+
+.holder{
+    position:relative;
+    width:800px;
+    height:541px;
+    background:url("../img/news/news.jpg");
+    margin:100px auto;
+    text-align: center;
+    color: white;
+}
+
+.block{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 0;
+    padding: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease 0s;
+    overflow: hidden;
+}
+
+.holder .block{
+    text-align: center;
+}
+
+.holder:hover .block {
+    opacity: 1;
+    transition: opacity 0.4s ease-out;
+}
+
+
+.block h2 {
+    margin-top: 150px;
+}
+
+
+/* -------------------------END NEWS.CSS -------------------------*/

@@ -1,0 +1,235 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="team">
+       <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/news" >Новости</a></li>
+                <li><a href="/competition" >Соревнования</a></li>
+                <li><div class="navbar-header">
+                    <a href="/"> <img src="{% static 'img/Imperia.png'  %}" height= "125px"></a>
+                    </div>
+                </li>
+                <li><a href="/team" >Команда</a></li>
+                <li><a href="/question" >Вопрос-ответ</a></li>
+            </ul>
+       </div>
+    </div>
+    <br>
+
+
+    <div class="content">
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Копешкин
+                    <br>
+                    Кирилл
+                </h2>
+                <span class="player_position">нападающий</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        30
+                        <time class="data_date">21.06.1987</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        189см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        124кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Kopeshkin.jpg' %}" class="player_image">
+        </article>
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Гончаров
+                    <br>
+                    Артем
+                </h2>
+                <span class="player_position">защитник</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        31
+                        <time class="data_date">26.08.1986</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        183см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        83кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Goncharov.jpg' %}" class="player_image">
+        </article>
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Попков
+                    <br>
+                    Никита
+                </h2>
+                <span class="player_position">полузащитник</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        23
+                        <time class="data_date">29.04.1994</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        175см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        75кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Popkov.jpg' %}" class="player_image">
+        </article>
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Копешкин
+                    <br>
+                    Кирилл
+                </h2>
+                <span class="player_position">нападающий</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        30
+                        <time class="data_date">21.06.1987</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        189см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        124кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Rusyaev.jpg' %}" class="player_image">
+        </article>
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Кураев
+                    <br>
+                    Павел
+                </h2>
+                <span class="player_position">защитник</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        19
+                        <time class="data_date">17.06.1998</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        183~см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        83~кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Kyraev.jpg' %}" class="player_image">
+        </article>
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Беспалов
+                    <br>
+                    Алексей
+                </h2>
+                <span class="player_position">нападающий</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        19
+                        <time class="data_date">12.03.1998</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        185~см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        100~кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Bespalov.jpg' %}" class="player_image">
+        </article>
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Сботов
+                    <br>
+                    Никита
+                </h2>
+                <span class="player_position">защитник</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        22
+                        <time class="data_date">14.06.1995</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        180см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        83кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Sbotov.jpg' %}" class="player_image">
+        </article>
+        <article class="player">
+            <div class="player_basic_info">
+                <h2>
+                    Жарков
+                    <br>
+                    Вадим
+                </h2>
+                <span class="player_position">нападающий</span>
+                <dl class="player_data">
+                    <dt class="data_header">Возраст</dt>
+                    <dd class="data_content">
+                        22
+                        <time class="data_date">02.08.1995</time>
+                    </dd>
+                    <dt class="data_header">Рост</dt>
+                    <dd class="data_content">
+                        195см
+                    </dd>
+                    <dt class="data_header">Вес</dt>
+                    <dd class="data_content">
+                        98кг
+                    </dd>
+                </dl>
+            </div>
+            <img src="{% static 'img/team/Jarkov.jpg' %}" class="player_image">
+        </article>
+    </div>
+
+
+
+{% endblock %}

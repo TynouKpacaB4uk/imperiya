@@ -1,0 +1,231 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+<body>
+
+    <div class="table">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/news">Новости</a></li>
+                <li><a href="/competition">Соревнования</a></li>
+                <li><div class="navbar-header">
+                    <a href="/"> <img src="{% static 'img/Imperia.png' %}" height= "125px"></a>
+                </div>
+                </li>
+                <li><a href="/team">Команда</a></li>
+                <li><a href="/question">Вопрос-ответ</a></li>
+            </ul>
+        </div>
+    </div>
+    <br><br>
+    <div class="text-center">
+        <h4>Турнирная таблица</h4>
+    </div>
+    <br><br>
+
+    <div class="matches_holder">
+        <div class="matches">
+            <ul id="game_type" class="game_type">
+                <li class="game_type_item">
+                    <a href="#" class="game_type_link-is-active">Регби-15</a>
+                </li>
+                <li class="match_type_item">
+                    <a href="#" class="game_type_link">Регби-7</a>
+                </li>
+            </ul>
+
+            <div id="tournament_content" class="tournament_content">
+            <div class="name_tournament">
+                Чемпионат России
+            </div>
+            <div id="tournament_info" class="tournament_info">
+                <ul id="tournament_type" class="tournament_type">
+                    <li class="tournament_item">
+                        <a href="#" class="tournament_link-is-active">Таблица</a>
+                    </li>
+                    <li class="tournament_item">
+                        <a href="#" class="tournament_link">Play off</a>
+                    </li>
+                </ul>
+                <div id="tournament-info-tab-content-table" class="tournament-info-tab-content tournament-info-tab-content-is-active">
+                    <table class="tournament-table">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th class="tourn-stats">
+                                    <span class="tourn_info-game">И</span>
+                                    <div class="table-tooltip">Игр проведено</div>
+                                </th>
+                                <th class="tourn-stats">
+                                    <span class="tourn-info-wins">В</span>
+                                    <div class="table-tooltip">Выиграно</div>
+                                </th>
+                                <th class="tourn-stats">
+                                    <span class="tourn-info-draws">Н</span>
+                                    <div class="table-tooltip">Ничьих</div>
+                                </th>
+                                <th class="tourn-stats">
+                                    <span class="tourn-info-loses">П</span>
+                                    <div class="table-tooltip">Поражений</div>
+                                </th>
+                                <th class="tourn-stats tourn-table-hidden">
+                                    +/-
+                                    <div class="table-tooltip">Очки + / Очки -</div>
+                                </th>
+                                <th class="tourn-stats tourn-table-hidden">
+                                    БО
+                                    <div class="table-tooltip table-tooltip-right">
+                                        Бонусных очков
+                                        <br>
+                                        <p>— Бонус атаки (1 очко) – начисляется, если команда занесла 4 и более попыток в одном матче;
+                                        <br><br>
+                                            — Бонус защиты (1 очко), который получает проигравшая команда, если разница игровых очков составляет 7 и менее пунктов.
+                                        </p>
+                                    </div>
+                                </th>
+                                <th class="tourn-stats">
+                                    ОТ
+                                    <div class="table-tooltip table-tooltip-right">Очков турнира</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/EniseiLogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">Енисей-СТМ</span>
+                                </th>
+                                <td>10</td>
+                                <td>9</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td class="tourn-table-hidden">429/95</td>
+                                <td class="tourn-table-hidden">8</td>
+                                <td class="space">45</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/Krasnyy_YarLogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">Красный Яр</span>
+                                </th>
+                                <td>10</td>
+                                <td>9</td>
+                                <td>0</td>
+                                <td>1</td>
+                                <td class="tourn-table-hidden">222/118</td>
+                                <td class="tourn-table-hidden">4</td>
+                                <td class="space">36</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/VVALogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">ВВА_Подмосковье</span>
+                                </th>
+                                <td>10</td>
+                                <td>7</td>
+                                <td>0</td>
+                                <td>3</td>
+                                <td class="tourn-table-hidden">189/142</td>
+                                <td class="tourn-table-hidden">4</td>
+                                <td class="space">32</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/KubanLogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">КUБАНЬ</span>
+                                </th>
+                                <td>10</td>
+                                <td>3</td>
+                                <td>0</td>
+                                <td>7</td>
+                                <td class="tourn-table-hidden">158/240</td>
+                                <td class="tourn-table-hidden">4</td>
+                                <td class="space">16</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/MetalyrgLogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">Металлург</span>
+                                </th>
+                                <td>10</td>
+                                <td>2</td>
+                                <td>0</td>
+                                <td>8</td>
+                                <td class="tourn-table-hidden">133/328</td>
+                                <td class="tourn-table-hidden">4</td>
+                                <td class="space">12</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/Slava-CSPLogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">Слава-ЦСП</span>
+                                </th>
+                                <td>10</td>
+                                <td>1</td>
+                                <td>0</td>
+                                <td>7</td>
+                                <td class="tourn-table-hidden">109/327</td>
+                                <td class="tourn-table-hidden">3</td>
+                                <td class="space">7</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/ImperiaLogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">Империя</span>
+                                </th>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td class="tourn-table-hidden">-/-</td>
+                                <td class="tourn-table-hidden">-</td>
+                                <td class="space">-</td>
+                            </tr>
+                            <tr>
+                                <th>
+                                    <span class="tourn-logo-holder">
+                                        <img src="{% static 'img/logo/BulavaLogo.png' %}" class="tourn-logo">
+                                    </span>
+                                    <span class="tourn-team-name">Булава</span>
+                                </th>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td>-</td>
+                                <td class="tourn-table-hidden">-/-</td>
+                                <td class="tourn-table-hidden">-</td>
+                                <td class="space">-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+    </div>
+
+
+
+
+
+
+</body>
+{% endblock %}

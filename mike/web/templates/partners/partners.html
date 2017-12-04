@@ -1,0 +1,104 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="partners">
+       <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/news" >Новости</a></li>
+                <li><a href="/competition" >Соревнования</a></li>
+                <li><div class="navbar-header">
+                    <a href="/"> <img src="{% static 'img/Imperia.png'  %}" height= "125px"></a>
+                    </div>
+                </li>
+                <li><a href="/team" >Команда</a></li>
+                <li><a href="/question" >Вопрос-ответ</a></li>
+            </ul>
+       </div>
+    </div>
+
+
+    <div class="title">
+        <div class="container">
+            <div class="row">
+                <br><br>
+                <div class="section_header text-center">
+                    <h1>Партнеры</h1>
+                </div>
+                <br>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-lg-4 col-lg-offset-2">
+            <div class="column">
+                <div class="text-center"><a href="http://www.penza-gorod.ru/"><img src={% static 'img/partners/1_Penza_official_site.png' %}></a></div>
+
+                <div class="text-center"><a href="http://www.penza-gorod.ru/">Администрация г.Пензы</a></div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="column">
+                <div class="text-center"><a href="https://www.impactyourkit.com/"><img src={% static 'img/partners/2_Impact.png' %}></a></div>
+
+                <div class="text-center"><a href="https://www.impactyourkit.com/">Impact prowear</a></div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="title">
+        <div class="container">
+            <div class="row">
+                <br><br>
+                <div class="section_header text-center">
+                    <h1>Информационная поддержка</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="row">
+        <div class="col-lg-2 col-lg-offset-1">
+            <div class="column">
+                <div class="text-center"><a href="http://russia58.tv/"><img src={% static 'img/partners/3_Rossia_1.jpg' %}></a></div>
+
+                <div class="text-center"><a href="http://russia58.tv/">ВГРК "Пенза"</a></div>
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="column">
+                <div class="text-center"><a href="http://penza-sport.com/"><img src={% static 'img/partners/4_Penza-Sport.jpg' %}></a></div>
+
+                <div class="text-center"><a href="http://penza-sport.com/">Пенза-Спорт. Новости спорта в Пензе</a></div>
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="column">
+                <div class="text-center"><a href="http://rurugby.ru/"><img src={% static 'img/partners/5_Rurugby.png' %}></a></div>
+
+                <div class="text-center"><a href="http://rurugby.ru/">Портал о Россиийском Регби</a></div>
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="column">
+                <div class="text-center"><a href="http://www.prorugby.ru/"><img src={% static 'img/partners/6_Prorugby.png' %}></a></div>
+
+                <div class="text-center"><a href="http://www.prorugby.ru/">Первый журнал в России про Регби</a></div>
+            </div>
+        </div>
+        <div class="col-lg-2">
+            <div class="column">
+                <div class="text-center"><a href="https://penza.kinoroliks.ru/"><img src={% static 'img/partners/8_Roliks.jpg' %}></a></div>
+
+                <div class="text-center"><a href="https://penza.kinoroliks.ru/">Сеть кинотеатров "Роликс"</a></div>
+            </div>
+        </div>
+    </div>
+    <br><br><br><br>
+
+
+{% endblock %}

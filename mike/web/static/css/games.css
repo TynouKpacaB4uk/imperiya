@@ -1,0 +1,42 @@
+/* ---------------------- GAMES.CSS ------------------------*/
+.games {
+    /*background-color: gray;*/
+    background-color: rgba(47,43,50,1);
+    -webkit-box-shadow:  0 0 50px  rgba(0,0,0,0.8);
+    box-shadow:  0 0 50px rgba(0,0,0,0.8);
+}
+
+.games .navbar-nav .navbar-header a:hover {
+    background: transparent;
+}
+
+.games .navbar-nav >li> a {
+    color: #bdbdbd;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    transition: 0.2s ease-out;
+}
+
+.games .navbar-nav a:hover {
+    background-color: rgba(47,43,50,1);
+    color: rgba(254,97,72,1);
+    text-decoration: none;
+}
+
+.navbar-header {
+    width: 45%;
+    height: 125px;
+}
+
+.games .navbar-nav {
+    margin-left: 350px;
+    margin-right: 321px;
+}
+
+
+
+/* ----------------------END GAMES.CSS ------------------------*/

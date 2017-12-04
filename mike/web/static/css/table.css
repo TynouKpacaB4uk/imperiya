@@ -1,0 +1,445 @@
+
+/*body  {*/
+
+    /*background: url('../img/bg_table.jpg') no-repeat center top ; !* Путь к фоновому изображению *!*/
+    /*background-attachment: fixed;!* Фиксируем фон веб-страницы *!*/
+    /*background-position: center center;*/
+   /*}*/
+/* ----------------------TABLE.CSS ------------------------*/
+.table {
+    /*background-color: gray;*/
+    background-color: rgba(47,43,50,1);
+    -webkit-box-shadow:  0 0 50px  rgba(0,0,0,0.8);
+    box-shadow:  0 0 50px rgba(0,0,0,0.8);
+}
+
+.table .navbar-nav .navbar-header a:hover {
+    background: transparent;
+}
+
+.table .navbar-nav >li> a {
+    color: #bdbdbd;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    transition: 0.2s ease-out;
+}
+
+.table .navbar-nav a:hover {
+    background-color: rgba(47,43,50,1);
+    color: rgba(254,97,72,1);
+    text-decoration: none;
+}
+
+.navbar-header {
+    width: 45%;
+    height: 125px;
+}
+
+.table .navbar-nav {
+    margin-left: 350px;
+    margin-right: 321px;
+}
+
+.text-center h4 {
+    font-size: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+}
+
+.matches_holder {
+    /* min-height: 100%; */
+    min-height: calc(100% - 40px);
+    padding: 0 0 70px;
+    /* background: #000;*/
+}
+
+.matches {
+    width: 875px;
+    margin: 0 auto;
+}
+
+.game_type {
+    margin: 0 0 20px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+.game_type > li {
+    padding: 0;
+    margin: 0;
+}
+
+.game_type_item {
+    float: left;
+    width: 50%;
+}
+
+.game_type_link-is-active {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(47,43,50,1);
+    background: rgba(254,97,72,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+.game_type_link-is-active:hover {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(47,43,50,1);
+    background: rgba(254,97,72,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+
+.game_type_link {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(254,97,72,1);
+    background: rgba(47,43,50,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+.game_type_link:hover {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(47,43,50,1);
+    background: rgba(254,97,72,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+
+
+
+
+
+.tournament_content {
+    position: relative;
+    margin: 0 0 20px;
+}
+
+.name_tournament {
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tournament_type {
+    margin: 0 0 20px;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+.tournament_type > li {
+    padding: 0;
+    margin: 0;
+}
+
+.tournament_item {
+    float: left;
+    width: 50%;
+}
+
+.tournament_link-is-active {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(47,43,50,1);
+    background: rgba(254,97,72,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+.tournament_link-is-active:hover {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(47,43,50,1);
+    background: rgba(254,97,72,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+
+.tournament_link {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(254,97,72,1);
+    background: rgba(47,43,50,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+.tournament_link:hover {
+    font-size: 12px;
+    /*font-size: .75rem;*/
+    display: block;
+    color: rgba(47,43,50,1);
+    background: rgba(254,97,72,1);
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 50px;
+    -webkit-transition: .15s;
+    transition: 0.2s ease-out;
+}
+
+
+
+
+.tournament-info-tab-content {
+    display: none;
+    padding: 0 0 20px;
+    background: #121212;
+}
+
+.tournament-info-tab-content-is-active {
+    display: block;
+}
+
+.tournament-table {
+    margin: 0;
+    color: #fff;
+    font-size: 12px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    display: table;
+    /*border-collapse: separate;*/
+    /*border-spacing: 2px;*/
+    border-color: grey;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    list-style-type: decimal;
+    counter-reset: list 0;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+}
+
+
+.tournament-table thead th {
+    padding: 25px 5px 0;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tournament-table th {
+    padding: 0 7.5px;
+    border: 0;
+    /*text-align: center;*/
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tournament-table th:last-child {
+    padding-right: 30px;
+}
+
+.space {
+    padding-right: 23px;
+}
+
+.tourn-info-place {
+    display: none;
+}
+
+.tourn-stats {
+    width: 45px;
+    white-space: normal;
+}
+
+.tourn_info-game {
+    border-color: #fff;
+    color: #fff;
+    display: block;
+    border-width: 0 0 3px;
+    border-style: solid;
+}
+
+.tourn-info-wins {
+    border-color: #3dfb77;
+    color: #3dfb77;
+    display: block;
+    border-width: 0 0 3px;
+    border-style: solid;
+}
+
+.tourn-info-draws {
+    border-color: #fff568;
+    color: #fff568;
+    display: block;
+    border-width: 0 0 3px;
+    border-style: solid;
+}
+
+.tourn-info-loses {
+    border-color: #f26c4f;
+    color: #f26c4f;
+    display: block;
+    border-width: 0 0 3px;
+    border-style: solid;
+}
+
+.tourn-stats .table-tooltip {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    max-width: 240px;
+    padding: 15px 15px 12px 15px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: left;
+}
+
+.tourn-stats .table-tooltip {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    max-width: 240px;
+    padding: 15px 15px 12px 15px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.7);
+    text-align: left;
+}
+
+.tourn-stats .table-tooltip-right {
+    left: auto;
+    right: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.tournament-table tbody {
+    counter-reset: place;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tournament-table tbody th {
+    height: 50px;
+}
+
+.tournament-table tbody >tr>th:before {
+    counter-increment: place; /* Увеличиваем значение счетчика */
+    content: counter(place)"."; /* Выводим число */
+    display: inline-block;
+    min-width: .75em;
+    margin: 0 0 0 25px;
+    text-align: right;
+}
+
+
+
+.tourn-logo-holder {
+    width: 60px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.tourn-logo {
+    max-width: 100%;
+    max-height: 30px;
+    vertical-align: middle;
+    display: inline-block;
+
+}
+
+.tourn-team-name {
+    white-space: normal;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body  {*/
+
+    /*background: url('../img/bg_table.jpg') no-repeat center top ; !* Путь к фоновому изображению *!*/
+    /*background-attachment: fixed;!* Фиксируем фон веб-страницы *!*/
+    /*background-position: center center;*/
+   /*}*/
+
+
+/* ----------------------END TABLE.CSS ------------------------*/

@@ -1,0 +1,67 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+    <div class="photogallery">
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/news">Новости</a></li>
+                <li><a href="/competition">Соревнования</a></li>
+                <li><div class="navbar-header">
+                    <a href="/"> <img src="{% static 'img/Imperia.png' %}" height= "125px"></a>
+                </div>
+                </li>
+                <li><a href="/team">Команда</a></li>
+                <li><a href="/question">Вопрос-ответ</a></li>
+            </ul>
+        </div>
+    </div>
+    <br><br>
+
+
+    <section class="content">
+        <div class="news-is-fadein">
+
+
+
+            <div class="holder">
+                <div class="block">
+                    <h2>Пример</h2>
+                    <p>Пример блока, при наведении на который появляется другой блок.</p>
+                </div>
+            </div>
+
+
+            <div class="example3">
+                <img src="http://www.empire-rugby.ru/images/stories/01-2017/aNehCYs7X_A.jpg" class="example_beauty" >
+                <div class="example_text">
+                    <h6>Я - заголовок</h6>
+                    <span>А я - комментарий к этой прекрасной картинке. Я такой длинный, что занимаю несколько строчек.</span>
+                </div>
+            </div>
+            <div class="example3">
+                <img src="http://www.empire-rugby.ru/images/stories/01-2017/DSC_2777.jpg" class="example_beauty"  >
+                <div class="example_text">
+                    <h6>Я - заголовок</h6>
+                    <span>А я - комментарий к этой прекрасной картинке. Я такой длинный, что занимаю несколько строчек.</span>
+                </div>
+            </div>
+            <div class="example3">
+                <img src="http://www.empire-rugby.ru/images/stories/01-2017/RenlPQXT3ks.jpg" class="example_beauty"  >
+                <div class="example_text">
+                    <h6>Я - заголовок</h6>
+                    <span>А я - комментарий к этой прекрасной картинке. Я такой длинный, что занимаю несколько строчек.</span>
+                </div>
+            </div>
+            <div class="example3">
+                <img src="http://www.empire-rugby.ru/images/stories/01-2017/DSC_2837.jpg" class="example_beauty"  >
+                <div class="example_text">
+                    <h6>Я - заголовок</h6>
+                    <span>А я - комментарий к этой прекрасной картинке. Я такой длинный, что занимаю несколько строчек.</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+{% endblock %}

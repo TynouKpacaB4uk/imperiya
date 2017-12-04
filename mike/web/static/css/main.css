@@ -1,0 +1,224 @@
+
+/* СКРОЛЛ ВВЕРХ */
+/*#scrollUp {*/
+    /*bottom: 20px;*/
+    /*left: 20px;*/
+    /*width: 55px;*/
+    /*height: 24px;*/
+    /*background: url('../img/up.png') no-repeat;*/
+/*}*/
+
+
+/*body  {*/
+
+    /*background: url('../img/bg_table.jpg') no-repeat center top ; !* Путь к фоновому изображению *!*/
+    /*background-attachment: fixed;!* Фиксируем фон веб-страницы *!*/
+    /*background-position: center center;*/
+   /*}*/
+
+/*--------------------------MAIN.CSS----------------------------*/
+.navbar {
+    background-color: transparent;
+}
+
+.navbar .navbar-nav .navbar-header a:hover {
+    background: transparent;
+}
+
+.navbar .navbar-nav >li> a {
+    color: white;
+    text-align: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    transition: 0.2s ease-out;
+}
+
+.navbar .navbar-nav a:hover {
+    background: transparent;
+    /*color: #781014;*/
+    color: rgba(254,97,72,1);
+    text-decoration: none;
+}
+
+.navbar-header {
+    width: 45%;
+    height: 125px;
+}
+
+.navbar .navbar-nav {
+    margin-left: 341px;
+    margin-right: 321px;
+}
+
+#headerwrap {
+    background: url("../img/bg_main.jpg") no-repeat center top;
+    margin-top: -210px;
+    text-align: center;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: 100%;
+    min-height: 950px;
+}
+
+#headerwrap h1 {
+    margin-top: 110px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    /*color: #781014;*/
+    color: white;
+
+    letter-spacing: .1em;
+    text-shadow:
+      0 -1px 0 #fff,
+      0 1px 0 #2e2e2e,
+      0 2px 0 #2c2c2c,
+      0 3px 0 #2a2a2a,
+      0 4px 0 #282828,
+      0 5px 0 #262626,
+      0 6px 0 #242424,
+      0 7px 0 #222,
+      0 8px 0 #202020,
+      0 9px 0 #1e1e1e,
+      0 10px 0 #1c1c1c,
+      0 11px 0 #1a1a1a,
+      0 12px 0 #181818,
+      0 13px 0 #161616,
+      0 14px 0 #141414,
+      0 15px 0 #121212,
+      0 22px 30px rgba(0, 0, 0, 0.9);
+  }
+
+#headerwrap p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: white;
+}
+
+.background-plan {
+    background: url("https://static.wixstatic.com/media/ff6bf6_dc039a9d5c534376a81089cfb818acb9.jpg/v1/fill/w_1584,h_600,al_c,q_85,usm_0.66_1.00_0.01/ff6bf6_dc039a9d5c534376a81089cfb818acb9.webp") no-repeat center top;
+    background-position: center center;
+    background-size: 100%;
+    min-height: 400px;
+    width: 100%;
+    margin-bottom: -100px;
+    /*-webkit-box-shadow:  0 0 50px  rgba(0,0,0,0.8);*/
+    /*box-shadow:  0 0 50px rgba(0,0,0,0.8);*/
+}
+
+.glory {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.glory .statPoint {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(47,43,50,1);
+}
+
+.glory .statPointDetails {
+    font-weight: 400;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: rgba(47,43,50,1);
+}
+
+.glory .statName {
+    padding: 10px 0 0;
+    margin: 0 auto;
+    /*color: #c4af7a;*/
+    color: rgba(47,43,50,1);
+    font-weight: 600;
+    line-height: 1.2;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.glory .statNameDetails {
+    font-weight: 500;
+    text-transform: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+
+.glory .statYears {
+    padding: 15px 0 0;
+    font-size: 30px;
+    color: rgba(47,43,50,1);
+}
+
+.siteMapHolder {
+    padding: 25px 0;
+    background-color: #696666;
+    -webkit-box-shadow:  0 0 50px  rgba(0,0,0,0.8);
+    box-shadow:  0 0 50px rgba(0,0,0,0.8);
+}
+
+.siteMap {
+    display: flex;
+    justify-content: space-between;
+    width: 62.5em;
+    margin: 0 auto;
+    line-height: 1.75;
+    padding-left: 0;
+}
+
+.siteMap a {
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    transition: 0.2s ease-out;
+}
+
+.siteMap a:hover {
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    /*color: #781014;*/
+    color: rgba(254,97,72,1);
+    text-align: center;
+    font-size: 23px;
+}
+
+.column {
+    list-style-type: none;
+}
+
+.footer {
+    /*background: #2d2d2d;*/
+    background-color: rgba(47,43,50,1);
+    -webkit-box-shadow: inset 0 0 50px  rgba(0,0,0,0.8);
+    box-shadow: inset 0 0 50px rgba(0,0,0,0.8);
+}
+
+.footer i {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    transition: 0.2s ease-out;
+}
+
+.footer i:hover {
+    /*color: #781014;*/
+    color: rgba(254,97,72,1);
+}
+
+.social {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 15px 0 0;
+    list-style-type: none;
+}
+
+/*--------------------------END MAIN.CSS----------------------------*/
+

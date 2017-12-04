@@ -1,0 +1,132 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>Империя</title>#}
+{##}
+{#     <!-- Custom style -->#}
+{#    <link rel="stylesheet" href={% static 'css/main.css' %}>#}
+{#    <link rel="stylesheet" href={% static 'css/bootstrap.css' %}>#}
+{#    <link rel="stylesheet" href={% static 'css/font-awesome.min.css' %}>#}
+{#    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">#}
+{#    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">#}
+{#    <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">#}
+{#    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">#}
+{#    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">#}
+{#</head>#}
+{#<body>#}
+
+    <div class="navbar">
+       <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="/news" >Новости</a></li>
+                <li><a href="/competition" >Соревнования</a></li>
+                <li><div class="navbar-header">
+                    <a href="/"> <img src="{% static 'img/Imperia.png' %}" height= "145px"></a>
+                    </div>
+                </li>
+                <li><a href="/team" >Команда</a></li>
+                <li><a href="/question" >Вопрос-ответ</a></li>
+             </ul>
+        </div>
+    </div>
+
+    <div id="headerwrap">
+        <div class="container">
+            <div class="row centered">
+                <div class="col-lg-12">
+                    <h1>Регби - это зверская игра, в которую играют джентльмены.</h1>
+                    <p>Генри Блаха.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="background-plan">
+        <div class="container glory">
+            <div class="row centered">
+                <br><br>
+                <div class="col-lg-4">
+                    <div class="statPoint">1</div>
+                    <div class="statPointDetails">раз</div>
+                    <div class="statName">ЧЕМПИОН РОССИИ
+                        <div class="statNameDetails">по регби-15</div>
+                    </div>
+                    <div class="statYears">
+                        <i class="fa fa-trophy">
+                        <div class="statPointDetails"> 2013 </div>
+                        </i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="statPoint">1</div>
+                    <div class="statPointDetails">раз</div>
+                    <div class="statName">СЕРЕБРЯНЫЙ ПРИЗЕР
+                        <div class="statNameDetails">Кубка европейских чемпионов по регби-7</div>
+                    </div>
+                    <div class="statYears">
+                        <i class="fa fa-trophy">
+                        <div class="statPointDetails"> 2011 </div>
+                        </i>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="statPoint">3</div>
+                    <div class="statPointDetails">раза</div>
+                    <div class="statName">ПРИЗЕР
+                        <div class="statNameDetails">чемпионата России по регби-7</div>
+                    </div>
+                    <div class="statYears">
+                        <i class="fa fa-trophy">
+                        <div class="statPointDetails"> 2008 2010 2011 </div>
+                        </i>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+{#</body>#}
+    {% endblock %}
+
+
+
+{#    <nav class="siteMapHolder">#}
+{#        <div class="siteMap">#}
+{#            <ul class="column">#}
+{#                <li><a href="#">О клубе</a></li>#}
+{#                <li><a href="/partners">Партнёры</a></li>#}
+{#            </ul>#}
+{#            <ul class="column">#}
+{#                <li><a href="#">Матчи</a></li>#}
+{#                <li><a href="#">Турнирная таблица</a></li>#}
+{#            </ul>#}
+{#            <ul class="column">#}
+{#               <li><a href="#">Фотогалерея</a></li>#}
+{#                <li><a href="#">Команда</a></li>#}
+{#            </ul>#}
+{#        </div>#}
+{#    </nav>#}
+{##}
+{#    <footer class="footer">#}
+{#        <div class="copyrights"><a href="/" class="logoLink">Регби клуб Империя</a></div>#}
+{#        <div class="container">#}
+{#            <div class="row centered">#}
+{#                <ul class="social">#}
+{#                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>#}
+{#                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>#}
+{#                    <li><a href="https://vk.com/empirerugby"><i class="fa fa-vk"></i></a></li>#}
+{#                    <li><a href="https://twitter.com/empirerugby"><i class="fa fa-twitter"></i></a></li>#}
+{#                </ul>#}
+{#            </div>#}
+{#        </div>#}
+{#    </footer>#}
+{##}
+{##}
+{#</body>#}
+{#</html>#}
